@@ -217,17 +217,17 @@ body {
     font-size: 1.1em;
 }
 .btn-download {
-    margin-top: 5px;
-    padding: 10px 15px;
+    padding: 12px 15px;
     background: #55b3d9;
     color: #fff;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
 }
-.btn-download:hover {
-    border: solid 1px #55b3d9;
-    color: #55b3d9;
-    background: #212226;
+.btn-download:hover,
+.btn-download:focus {
+    color: #fff;
+    text-decoration: none;
 }
 .about-avatar {
     position: absolute;
