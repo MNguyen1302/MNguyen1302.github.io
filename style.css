@@ -258,7 +258,7 @@ body {
 }
 .block-project {
     display: flex;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 .block-project-img {
     position: relative;
